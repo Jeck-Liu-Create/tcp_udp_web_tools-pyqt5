@@ -167,7 +167,7 @@ class ToolsUi(QDialog):
         self.label_rev.setText(self._translate("TCP-UDP", "接收区域"))
         self.label_send.setText(self._translate("TCP-UDP", "发送区域"))
         self.label_dir.setText(self._translate("TCP-UDP", "请选择index.html所在的文件夹"))
-        self.label_written.setText(self._translate("TCP-UDP", "Written by Wangler2333"))
+        self.label_written.setText(self._translate("TCP-UDP", "沧州中铁自动化部开发维护"))
 
     def connect(self):
         """

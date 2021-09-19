@@ -1,10 +1,10 @@
 from PyQt5 import QtWidgets
-import tcp_logic, udp_logic, web_logic
+import tcp_logic
 import socket
 import sys
 
 
-class MainWindow(tcp_logic.TcpLogic, udp_logic.UdpLogic, web_logic.WebLogic):
+class MainWindow(tcp_logic.TcpLogic):
     def __init__(self, num):
         super(MainWindow, self).__init__(num)
         self.client_socket_list = list()
